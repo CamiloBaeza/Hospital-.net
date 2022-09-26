@@ -1,0 +1,31 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+BusinessLayer
+</name>
+</assembly>
+<members>
+<member name="P:BusinessLayer.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:BusinessLayer.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:BusinessLayer.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:BusinessLayer.BL.RESERVA_LOG_ESTADO.EnviarCorreoEliminaReserva(System.Nullable{System.Int32},Utilidades.Conexion)">
+	<summary>
+ Envia un email notificando la eliminación del pago de una reserva 
+ </summary>
+	<param name="vRESE_ID">ID de la Reserva</param>
+	<param name="vCon">Cadena de conexión</param>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

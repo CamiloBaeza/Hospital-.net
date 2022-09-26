@@ -1,0 +1,564 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+EntityLayer
+</name>
+</assembly>
+<members>
+<member name="T:EntityLayer.EL.AUX_SISTEMA_SALUD">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.CARACTERISTICA_PRESTACION">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.CONDICION_SERVICIO_CONTRATO">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.CONTRATO">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.CONVENIO_PRESTACION">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.DATOS_LOGIN">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.DETALLE_BIOPSIA">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.INFORME_PENDIENTE_FACTURAR">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.MUESTRA_BIOPSIA">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.SEND_MAIL">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.VENDEDOR">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.AUSENCIA">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.BOLETA_NULA">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.CCLD_DETALLE_LOG">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.EXAMEN_RESERVA">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.MEDIO_PAGO">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.PAGAR_ATENCION">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.PAGO">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.PROFESION">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.RESERVA">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.SISTEMA_SALUD_PRESTACION">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.USUARIO">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="P:EntityLayer.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:EntityLayer.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:EntityLayer.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:EntityLayer.EL.ACCESO">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.BANCO">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.IMPRESION_INFORME">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.REGION">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.TIPO_SALUD">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.USUARIO_CONTRATO">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.USUARIO_SERVICIO_CLINICO">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.CCLD_DETALLE_CHEQUE">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.PAGO_ATENCION">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.PAIS">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.PREPARACION_RESPUESTA">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.CCLD_PAGO_ATENCION">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.COMUNA">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.FACTURA">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.FESTIVO">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.FORMA_PAGO_ATENCION">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.HORARIO_SEMANAL">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.MIEMBRO_GRUPO">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.RECETA_MEDICAMENTO_INFORME">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.FUNCION">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.HORARIO_DIARIO">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.INTEGRACION_SCRIPT">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.RECETA_MEDICAMENTO">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.RESTRICCION_HORARIO">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.SERVICIO_CLINICO">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.ESPECIALIDAD_EXAMEN">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.PREPARATIVO_EXAMEN">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.RESERVA_LOG_ESTADO">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.SERVICIO">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.EMPRESA">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.ESPECIALIDAD_FICHA_ITEM">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.ESTADO_PAGO">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.PROCEDIMIENTO">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.SISTEMA_SALUD">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.ESTADO_RESERVA">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.INSTRUCTIVO">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.PROC_FICHA">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.RESERVA_LIGHT">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.VIEWSTATE">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.PAGO_ATENCION_DETALLE">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.PRESTACION">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.RESULTADO_EXAMEN">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.CONVENIOS_TIPO_PRESTACION">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.DIAGNOSTICO">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.FICHA_MEDICA">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.HIPOTESIS_DIAGNOSTICA">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.PREPARATIVO">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.TIPO_DIAGNOSTICO">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.TIPO_PRESTACION">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.CLINICA">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.EXAMEN_CLINICA">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.INICIO_SESION">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.LISTA_ESPERA">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.PRINCIPIO_ACTIVO">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.CLINICA_SEDE">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.ESPECIALIDAD">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.FILTRO_HELPER">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.PACIENTE">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.CARACTERISTICA_ATENCION">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.CCLD_LOG_INTEGRACION">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.DATOS_SENDMAIL">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.EXAMEN">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.HOS_PAC_CSA">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.HOS_VAL_CSA">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.MEDICAMENTO">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.MOTIVO_AUSENCIA">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.FICHA_ITEM">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.INFORME_FACTURAS_PENDIENTES">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.RECETA_EXAMEN">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.TIPO_FICHA_ITEM">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.USUARIO_ESPECIALIDAD">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.CONVENIO_PACIENTE">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.DETALLE_FACTURA">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.FACTURADOR">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.TIPO_USUARIO">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.AGENDA_CONSOLIDADA">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.AVISO_PAGO">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.CONVENIO_EMPRESA">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.FICHA_ITEM_GRUPO">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.FICHA_MEDICA_DETALLE">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.HORARIO_SEMANAL_DETALLE">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.INSTRUCTIVO_EXAMEN">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.PRESENTACION_MEDICAMENTO">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.SERVICIO_CONTRATO">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.TIPO_ATENCION">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EntityLayer.EL.TIPO_ATENCION_HORARIO">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

@@ -1,0 +1,133 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Utilidades
+</name>
+</assembly>
+<members>
+<member name="M:Utilidades.Excel.ExportarGridviewExcel(System.Web.UI.WebControls.GridView,System.String)">
+	<summary>
+ RENDERIZA UNA TABLA GRIDVIEW A UNA HOJA HTML, EXPORTA A FORMATO XLS
+ </summary>
+</member><member name="M:Utilidades.Excel.CargarExcelCargaSueldos(System.String)">
+	<summary>
+ CARGAR ARCHIVO EXCEL
+ </summary>
+</member><member name="M:Utilidades.Excel.ExportExcelToDataTable(System.String)">
+	<summary>
+ EXPORTA UN ARCHIVO EXCEL A UN DATATABLE
+ </summary>
+</member><member name="P:Utilidades.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Utilidades.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:Utilidades.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="P:Utilidades.Conexion.Conexion">
+	<summary>
+ OBTIENE EL OBJETO CONEXION
+ </summary>
+</member><member name="M:Utilidades.Conexion.#ctor(System.String)">
+	<summary>
+ Constructor de la conexion.
+ </summary>
+	<param name="vStrCon">String de conexi�n.</param>
+	<remarks></remarks>
+</member><member name="P:Utilidades.ConexionOracle.Conexion">
+	<summary>
+ OBTIENE EL OBJETO CONEXION
+ </summary>
+</member><member name="M:Utilidades.ConexionOracle.#ctor(System.String)">
+	<summary>
+ Constructor de la conexion.
+ </summary>
+	<param name="vStrCon">String de conexi�n.</param>
+	<remarks></remarks>
+</member><member name="T:Utilidades.ControlEstado">
+	<summary>
+ Clase Entity para el control de la tabla de DB .
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Utilidades.Generico.Provider_es_CL">
+	<summary>
+ PROVEEDOR PARA FECHAS CON FORMATO ESPAÑOL-CHILE
+ </summary>
+</member><member name="M:Utilidades.Generico.EstadoEjecucion(System.Data.DataTable)">
+	<summary>
+ OBTIENE EL RESULTADO DE LA EJECUCIÓN A PARTIR DE LOS DATOS OBTENIDOS EN EL DATATABLE.
+ RETORNA VERDADERO SI LA EJECUCIÓN FUE CORRECTA. EN CASO DE ERROR ESCRIBE EN EL ARCHIVO LOG.
+ </summary>
+</member><member name="M:Utilidades.Generico.HoraValida(System.String)">
+	<summary>
+ Valida que una cadena ingresada sea válida. (HH:mm)
+ </summary>
+	<param name="hora">Hora a validar</param>
+	<returns>Verdadero si es hora valida</returns>
+	<remarks></remarks>
+</member><member name="M:Utilidades.Generico.FechaValida(System.String)">
+	<summary>
+ Valida que una fecha ingresada sea válida.
+ </summary>
+	<param name="fecha">Fecha a validar</param>
+	<returns>Verdadero si es fecha valida</returns>
+	<remarks></remarks>
+</member><member name="M:Utilidades.Generico.NumeroEnteroValido(System.String)">
+	<summary>
+ Valida que una cadena represente un número entero.
+ </summary>
+	<param name="numero">Número a validar</param>
+	<returns>Verdadero si número es válido.</returns>
+	<remarks></remarks>
+</member><member name="M:Utilidades.Generico.NumeroDecimalValido(System.String)">
+	<summary>
+ Valida que una cadena represente un número decimal. (valida con la coma como separador decimal.)
+ </summary>
+</member><member name="M:Utilidades.Generico.GetCurrentIdentity(System.String)">
+	<summary>
+ OBTIENE EL IDENTIFICADOR IDENTIDAD DE LA TABLA QUE SE ESPECIFICA POR PARÁMETROS.
+ </summary>
+</member><member name="M:Utilidades.Generico.SetFocus(System.Web.UI.Page,System.String)">
+	<summary>
+ SETEO DE FOCO ARTIFICIAL
+ </summary>
+</member><member name="M:Utilidades.Generico.SetFocusAtEnd(System.Web.UI.Page,System.String)">
+	<summary>
+ SETEO DE FOCO ARTIFICIAL AL FINAL
+ </summary>
+</member><member name="M:Utilidades.Generico.Msg(System.Web.UI.Page,System.String)">
+	<summary>
+ MENSAJE DE ALERTA EN PANTALLA. (USA ALERT DE JAVASCRIP)
+ </summary>
+</member><member name="M:Utilidades.Generico.MsgConfirm(System.Web.UI.Page,System.String,System.Web.UI.WebControls.HiddenField,System.Object)">
+	<summary>
+ MENSAJE DE CONFIRMACION EN PANTALLA. (USA CONFIRM DE JAVASCRIP)
+ </summary>
+</member><member name="M:Utilidades.Generico.EnviarMensaje(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Boolean,System.String,System.String,System.String,System.Web.UI.WebControls.ListItemCollection,System.Collections.Generic.Dictionary{System.String,System.IO.MemoryStream},System.String)">
+	<summary>
+ PERMITE ADJUNTAR VARIOS PDF DESDE EL SERVIDOR O COMO MEMORY STREAM
+ </summary>
+	<param name="vsubject"></param>
+	<param name="vbody"></param>
+	<param name="vcuentaDestino"></param>
+	<param name="vcuentaCopia"></param>
+	<param name="vNombrecuenta"></param>
+	<param name="vcuentaOrigen"></param>
+	<param name="vSMTPServidor"></param>
+	<param name="vHtml"></param>
+	<param name="vAbsoluteUri"></param>
+	<param name="vMAIL_SMTPPASSWORD"></param>
+	<param name="vMAIL_PORT"></param>
+	<param name="vMAIL_SSL"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member>
+</members>
+</doc>
